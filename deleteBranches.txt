@@ -1,4 +1,9 @@
+delete branches
 git push origin :dev
 git push origin :test
 git branch -d dev
-git branch -d test 
+git branch -d test
+
+delete tag
+git push origin --delete v1.4
+git tag -d v1.4 
