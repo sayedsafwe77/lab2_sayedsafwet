@@ -1,0 +1,4 @@
+git push origin :dev
+git push origin :test
+git branch -d dev
+git branch -d test 
