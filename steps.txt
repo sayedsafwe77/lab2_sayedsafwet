@@ -1,0 +1,31 @@
+git init
+git remote add origin https://github.com/sayedsafwe77/lab2_sayedsafwet.git
+git branch -m main
+touch sayedsafwet
+git add .
+git commit -m "lab2"
+git push origin main
+git branch dev
+git branch test
+git push origin dev
+git push origin test
+git chekout dev
+touch f1 f2
+git add .
+git commit -m "dev branch"
+git push origin dev
+git checkout main
+git merge dev
+git branch -d dev
+git push origin :dev
+git branch -d test
+git push origin :test
+git tag -a v1.4 -m "version 1.4"
+git push origin v1.4
+git tag
+git tag -d v1.4
+git push origin --delete v1.4
+touch README.md
+git add .
+git commit -m "read me"
+git push origin main
